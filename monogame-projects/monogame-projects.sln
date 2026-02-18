@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App1", "App1\App1.csproj", "{A38A2EC8-1CAF-4C20-BADA-40E8B8BAC25E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmberKit", "EmberKit\EmberKit.csproj", "{F162DD1D-41C9-4D4B-B0E8-1FDEDBA3EF47}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{D819709A-08B4-4861-B45E-E4D7A4380AB7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{D6484221-4F06-4AD9-B338-4B055C71A882}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{39230EB4-2D5D-455D-A24E-25BC38E57EAC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Games", "Games", "{06C9FC76-D0CE-44F0-BBC0-F889EF03AC64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extinguished", "Extinguished\Extinguished.csproj", "{BB3A4D08-CBA7-4B60-BB26-9DE40211A12B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmberFramework", "EmberFramework\EmberFramework.csproj", "{6AB83131-5384-4E0A-9D11-8C27D012F97D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A38A2EC8-1CAF-4C20-BADA-40E8B8BAC25E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A38A2EC8-1CAF-4C20-BADA-40E8B8BAC25E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A38A2EC8-1CAF-4C20-BADA-40E8B8BAC25E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A38A2EC8-1CAF-4C20-BADA-40E8B8BAC25E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F162DD1D-41C9-4D4B-B0E8-1FDEDBA3EF47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F162DD1D-41C9-4D4B-B0E8-1FDEDBA3EF47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F162DD1D-41C9-4D4B-B0E8-1FDEDBA3EF47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F162DD1D-41C9-4D4B-B0E8-1FDEDBA3EF47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB3A4D08-CBA7-4B60-BB26-9DE40211A12B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB3A4D08-CBA7-4B60-BB26-9DE40211A12B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB3A4D08-CBA7-4B60-BB26-9DE40211A12B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB3A4D08-CBA7-4B60-BB26-9DE40211A12B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AB83131-5384-4E0A-9D11-8C27D012F97D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AB83131-5384-4E0A-9D11-8C27D012F97D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AB83131-5384-4E0A-9D11-8C27D012F97D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AB83131-5384-4E0A-9D11-8C27D012F97D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A38A2EC8-1CAF-4C20-BADA-40E8B8BAC25E} = {D819709A-08B4-4861-B45E-E4D7A4380AB7}
+		{F162DD1D-41C9-4D4B-B0E8-1FDEDBA3EF47} = {39230EB4-2D5D-455D-A24E-25BC38E57EAC}
+		{BB3A4D08-CBA7-4B60-BB26-9DE40211A12B} = {06C9FC76-D0CE-44F0-BBC0-F889EF03AC64}
+		{6AB83131-5384-4E0A-9D11-8C27D012F97D} = {39230EB4-2D5D-455D-A24E-25BC38E57EAC}
+	EndGlobalSection
+EndGlobal
